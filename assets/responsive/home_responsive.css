@@ -1,0 +1,347 @@
+@media (max-width: 1040px) {
+    /* navbar start */
+    /* navbar end */
+
+
+
+
+    /* body section start */
+    .food_card_main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .food_img img {
+        height: 260px;
+        width: 260px;
+    }
+
+    /* body section end */
+}
+
+
+
+@media (max-width: 910px) {
+
+    /* navbar start */
+    .navbar_inner .logo img {
+        height: 100px;
+        padding-left: 18%;
+    }
+
+
+    .nav_link1,
+    .nav_link2 {
+        display: none;
+    }
+
+    /* navbar end */
+
+
+
+
+
+
+    /* body section start */
+    .food_card_main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .food_img img {
+        height: 300px;
+        width: 300px;
+    }
+
+    /* body section end */
+
+
+
+
+    /* mid section start  */
+    .package_card_main {
+        display: grid;
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    /* mid section end */
+}
+
+@media (max-width:768px) {
+    .show_bottom_navbar{
+        display: block !important;
+    }
+}
+
+
+@media (max-width: 688px) {
+
+    /* body section start */
+    .food_card_main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .food_img img {
+        height: 250px;
+        width: 250px;
+    }
+
+    /* body section end */
+
+
+
+    /* mid section start  */
+    .package_card_main {
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .pack_mid_main {
+        display: block !important;
+    }
+
+    /* mid section end */
+
+
+    /* floating btn start */
+
+    .modal-content h2 {
+        text-align: center;
+        font-size: 1.1rem !important;
+        margin-bottom: 2%;
+    }
+
+    /* floating btn end */
+}
+
+
+
+
+@media (max-width: 568px) {
+
+    /* navbar start */
+    .navbar_inner .logo img {
+        height: 70px;
+        padding-left: 18%;
+    }
+
+    .nav_link3 {
+        font-size: 14px;
+    }
+
+    /* navbar end */
+
+
+
+
+
+    /* body start */
+    .body_inner_header h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .food_img img {
+        height: 180px;
+        width: 200px;
+    }
+
+    /* body end */
+
+
+
+
+
+    /* mid start */
+    .mid_inner_header h1 {
+        font-size: 1.5rem !important;
+    }
+
+    /* mid end */
+
+
+
+
+
+    /* footer start */
+    .footer_inner .footer_logo img {
+        width: 100px !important;
+    }
+
+    .footer_inner .footer_numbers {
+        font-weight: 600;
+        font-size: 0.8rem;
+    }
+
+    .footer_bottom_texts {
+        font-size: 10px;
+    }
+
+    /* footer end */
+
+
+
+
+    /* floating btn start */
+
+    .modal-content h2 {
+        text-align: center;
+        font-size: 0.8rem !important;
+        margin-bottom: 2%;
+    }
+    .modal_body .items b, .modal_body ul li, .modal_body p b{
+        font-size: 0.8rem !important;
+    }
+
+    /* floating btn end */
+}
+
+
+
+@media (max-width: 440px) {
+
+    /* navbar start */
+
+    .nav_link3 {
+        font-size: 10px;
+        padding-left: 9px !important;
+        padding-right: 9px !important;
+    }
+
+    /* navbar end */
+
+    /* body start */
+    .body_inner {
+        background: rgb(174, 174, 174);
+        background: linear-gradient(0deg, rgba(174, 174, 174, 1) 0%, rgba(0, 0, 0, 0.9641981792717087) 48%);
+        color: white;
+        padding-bottom: 2rem;
+
+        .body_inner_header h1 {
+            font-size: 1.1rem !important;
+        }
+    }
+
+    .food_card_main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .food_card_main>* {
+        justify-self: center;
+        align-self: center;
+    }
+
+    .food_card_inner {
+        background: #040404f0;
+        border: 1px solid white;
+        width: fit-content;
+        overflow: hidden;
+        border-radius: 10px;
+        padding-bottom: 2%;
+        margin-bottom: 15%;
+
+        .food_img img {
+            height: 150px;
+            width: 170px;
+        }
+
+        .card_bottom_main {
+            padding-left: 7% !important;
+            padding-right: 7% !important;
+        }
+
+        .card_bottom_inner {
+            font-size: 14px;
+        }
+
+        .food_quentity_inner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10%;
+            margin-bottom: 5%;
+
+            .display {
+                background: white;
+                color: #000000;
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 14px !important;
+                font-weight: 500;
+            }
+
+            .btn-1 {
+                border: 1px solid #d80000;
+                border-radius: 0;
+                padding-left: 10px !important;
+                padding-right: 10px !important;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 14px !important;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+    }
+
+    /* body end */
+
+
+
+    /* mid section start */
+    .pack_heading p {
+        font-size: 15px !important;
+    }
+
+    .pack_li .day_pack {
+        font-size: 12px !important;
+        border-radius: 5px !important;
+    }
+
+    .pack_li .menu_pack {
+        font-size: 12px !important;
+    }
+
+    /* mid section end */
+
+
+    /* footer start */
+    .footer_inner .footer_logo img {
+        width: 80px !important;
+    }
+
+    .footer_inner .footer_numbers {
+        font-weight: 500;
+        font-size: 0.6rem;
+    }
+
+    .footer_bottom_texts {
+        font-size: 8px;
+    }
+
+    /* footer end */
+
+
+
+
+
+        /* floating btn start */
+
+        .modal-content h2 {
+            text-align: center;
+            font-size: 0.8rem !important;
+            margin-bottom: 2%;
+        }
+        .modal_body .items b, .modal_body ul li, .modal_body p b{
+            font-size: 0.8rem !important;
+        }
+        .modal_footer{
+            text-align: center;
+            margin-top: 2% !important;
+        }
+        /* floating btn end */
+}

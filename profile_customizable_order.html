@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Address</title>
+
+    <link rel="stylesheet" href="./assets/css/profile_reviews.css">
+    <link rel="stylesheet" href="./assets/responsive/profile_responsive.css">
+
+    <!-- for footer and header -->
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/responsive/home_responsive.css">
+
+    <!-- for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body class="profile_view">
+
+
+
+
+
+    <!-- profile body start -->
+    <section class="profile_main">
+        <div class="profile_inner">
+            <div class="cover_banner">
+                <div class="cover_banner_inner">
+
+                    <div class="profile_image">
+                        <img src="./assets/images/myp.png" alt="">
+                    </div>
+
+                    <div class="user_details">
+                        <h1 class="profile_name_user">Saklin Mustak</h1>
+                        <div class="users_links">
+                            <span><a class="users_links_each" href="profile_reviews.html"><i
+                                        class="fa-solid fa-user"></i>&nbsp;Reviews</a></span>
+                            <span><a class="users_links_each" href="profile.html"><i
+                                        class="fa-solid fa-truck"></i>&nbsp;Orders</a></span>
+                            <span id="edit_profile"><a class="users_links_each" href="#"><i
+                                        class="fa-solid fa-pen-to-square"></i>&nbsp;Edit</a></span>
+
+                            <div id="my_edit_profile_modal" class="modal">
+                                <div class="modal-content content_modal">
+                                    <span class="close">&times;</span>
+                                    <h2 class="prof_heading">Edit profile</h2>
+                                    <form action="#" method="" class="modal_body_user">
+                                        <div class="profile_edit_image">
+                                            <div class="edit_image_inner">
+                                                <img src="./assets/images/myp.png" alt="">
+                                                <label class="user_modal_profile_label" for="user_modal_profile"><i
+                                                        class="fa-solid fa-camera text-bl"></i></label>
+
+
+                                                <input type="file" name="user_modal_profile" id="user_modal_profile"
+                                                    style="display: none;">
+                                            </div>
+
+
+                                        </div>
+
+                                        <div class="show_div" style="display: none;">
+                                            <label for="user_modal_profile" class="show">Edit Photo</label>
+
+                                        </div>
+
+                                        <label for="name" class="form_label">User Name</label>
+                                        <input class="form_input" name="name" id="name" type="text">
+
+                                        <label for="number" class="form_label">Phone Number</label>
+                                        <input class="form_input" name="number" id="number" type="text">
+
+                                        <label for="email" class="form_label">Email Address</label>
+                                        <input class="form_input" name="email" id="email" type="email">
+
+                                        <label for="city" class="form_label">City Name</label>
+                                        <input class="form_input" name="city" id="city" type="text">
+                                        <p class="secondary-text desc_prof">Provide us your city to reach foods
+                                            accurately</p>
+
+                                        <label for="description" class="form_label">Description</label>
+                                        <input class="form_input" name="description" id="description" type="text">
+                                        <p class="secondary-text desc_prof">Tell us something about yourself</p>
+
+                                        <div class="modal_footer">
+                                            <button class="btn-red">Save Changes</button>
+                                        </div>
+                                    </form>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- profile body end -->
+
+
+
+    <!-- profile body part start -->
+    <section class="profile_body_main">
+        <div class="profile_body_inner">
+            <div class="sidebar_main">
+                <div class="sidebar_inner">
+                    <div class="sidebar_links">
+                        <a href="profile.html" class="sidebar_link_each">Orders</a>
+                        <a href="profile_reviews.html" class="sidebar_link_each">Reviews</a>
+                        <a href="profile_myaddress.html" class="sidebar_link_each">My Address</a>
+                        <a href="profile_customizable_order.html" class="sidebar_link_each">Customizable Orders</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile_link_content_main">
+                <div class="profile_link_content_inner">
+                    <h1 class="content_heading" style="text-align: center;">
+                        Your Customizable Orders
+                    </h1>
+                    <hr>
+
+                    <div class="profile_c_main">
+                        <div class="profile_c_inner">
+                            <table style="width: 100%; margin-top: 3%;">
+                                <tr style="text-align: center;">
+                                    <th>Days</th>
+                                    <th>Food Items</th>
+                                    <th>Quantity</th>
+                                </tr>
+
+                                <tr style="text-align: center;">
+                                    <td>Sun</td>
+                                    <td
+                                        style="display: flex; flex-direction: column; align-items: center;  margin-bottom: 5%;">
+                                        <span>item1</span>
+                                        <span>item2</span>
+                                        <span>item3</span>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <p>2</p>
+                                        <p>2</p>
+                                        <p>1</p>
+                                    </td>
+                                </tr>
+                                <tr style="text-align: center;">
+                                    <td>Mon</td>
+                                    <td
+                                        style="display: flex; flex-direction: column; align-items: center;  margin-bottom: 5%;">
+                                        <span>item1</span>
+                                        <span>item2</span>
+                                        <span>item3</span>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <p>2</p>
+                                        <p>2</p>
+                                        <p>1</p>
+                                    </td>
+                                </tr>
+                                <tr style="text-align: center;">
+                                    <td>Tue</td>
+                                    <td
+                                        style="display: flex; flex-direction: column; align-items: center; margin-bottom: 5%;">
+                                        <span>item1</span>
+                                        <span>item2</span>
+                                        <span>item3</span>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <p>2</p>
+                                        <p>2</p>
+                                        <p>1</p>
+                                    </td>
+                                </tr>
+                                <tr style="text-align: center;">
+                                    <td>Wed</td>
+                                    <td
+                                        style="display: flex; flex-direction: column; align-items: center; margin-bottom: 5%;">
+                                        <span>item1</span>
+                                        <span>item2</span>
+                                        <span>item3</span>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <p>2</p>
+                                        <p>2</p>
+                                        <p>1</p>
+                                    </td>
+                                </tr>
+                                <tr style="text-align: center;">
+                                    <td>Thu</td>
+                                    <td
+                                        style="display: flex; flex-direction: column; align-items: center; margin-bottom: 5%;">
+                                        <span>item1</span>
+                                        <span>item2</span>
+                                        <span>item3</span>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <p>2</p>
+                                        <p>2</p>
+                                        <p>1</p>
+                                    </td>
+                                </tr>
+                                <tr style="text-align: center;">
+                                    <td>Fri</td>
+                                    <td
+                                        style="display: flex; flex-direction: column; align-items: center; margin-bottom: 5%;">
+                                        <span>item1</span>
+                                        <span>item2</span>
+                                        <span>item3</span>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <p>2</p>
+                                        <p>2</p>
+                                        <p>1</p>
+                                    </td>
+                                </tr>
+                                <tr style="text-align: center;">
+                                    <td>Sat</td>
+                                    <td
+                                        style="display: flex; flex-direction: column; align-items: center; margin-bottom: 5%;">
+                                        <span>item1</span>
+                                        <span>item2</span>
+                                        <span>item3</span>
+                                    </td>
+                                    <td style="text-align: center;">
+                                        <p>2</p>
+                                        <p>2</p>
+                                        <p>1</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- profile body part end -->
+
+
+
+
+
+    <!-- bottom navbar start -->
+    <section class="bottom_navbar_main show_bottom_navbar hide_bottom_navbar">
+        <div class="bottom_navbar_inner">
+            <span class="b_navlink"><a href="home.html"><i class="fa-solid fa-house"></i></a></span>
+            <span class="b_navlink"><a href="profile.html"><i class="fa-solid fa-user"></i></a></span>
+            <span class="b_navlink"><a href="help.html"><i class="fa-solid fa-headset"></i></a></span>
+        </div>
+    </section>
+    <!-- bottom navbar end -->
+
+
+
+
+
+
+    <script>
+        document.getElementById('edit_profile').addEventListener('click', function () {
+            document.getElementById('my_edit_profile_modal').style.display = 'block';
+        });
+
+        document.getElementsByClassName('close')[0].addEventListener('click', function () {
+            document.getElementById('my_edit_profile_modal').style.display = 'none';
+        });
+
+        window.addEventListener('click', function (event) {
+            var modal = document.getElementById('my_edit_profile_modal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>

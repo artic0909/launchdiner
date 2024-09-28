@@ -1,0 +1,212 @@
+* {
+    color: white;
+}
+
+/* details food start ----------------------------------------------------------> */
+.details_inner {
+    padding: 3%;
+    padding-top: 5%;
+    background: #090909;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5%;
+
+    .details_image_sliding_main .image_sliding_inner img {
+        width: 400px;
+        border-radius: 10px;
+    }
+
+
+    .food_details_main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .food_details_inner .food_details_title {
+        font-size: 3rem;
+    }
+
+    .food_details_inner .food_details_price {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .food_details_inner .food_details_desc {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .food_details_inner .food_details_desc {
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .food_details_inner .location {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .food_details_inner .open_hours {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .main_ratings {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 3%;
+    }
+
+    .food_details_inner .ratings {
+        display: flex;
+        gap: 2%;
+        margin-top: 2%;
+
+        .inn_ratings {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 8px;
+            font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+        }
+
+        .rating_progress h6 {
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .rating_progress .dot_underline {
+            border-bottom: 2px dotted rgba(255, 255, 255, 0.669);
+        }
+    }
+
+    .food_details_inner p {
+        margin-top: 1.5%;
+    }
+}
+/* details food end ----------------------------------------------------------> */
+
+
+
+
+
+
+
+
+/* reviews start -------------------------------------------------->*/
+.reviews_inner {
+    padding: 3%;
+    padding-top: 5%;
+    background: #131313;
+
+    .review_heading {
+        text-align: right;
+        font-size: 3rem;
+    }
+
+    .rv_hr {
+        opacity: 0.7;
+    }
+
+    .reviews_each_main {
+        margin-top: 3%;
+    }
+
+    .each_inner {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .each_inner .customer_name {
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .customer_profile img {
+        width: 50px;
+        border-radius: 50%;
+    }
+}
+
+
+.customers_review_main {
+    .ratings_each p .inn_ratings {
+        padding: 8px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .ratings_each p {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        margin-top: 1.2%;
+        margin-bottom: 1%;
+    }
+}
+
+.review_images_inner {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 3%;
+
+    .button_carousel {
+        background: #d80000;
+        padding: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 6px;
+        border: 1px solid #d80000;
+        cursor: pointer;
+
+        &:hover {
+            background: transparent;
+        }
+    }
+
+    .button_carousel button {
+        border: none;
+        font-size: 1.5rem;
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .reviews_images {
+        display: flex;
+        gap: 20px;
+        width: 860px;
+        border-radius: 10px;
+        overflow-y: auto;
+    }
+
+    .reviews_images::-webkit-scrollbar {
+        display: none;
+    }
+
+    .reviews_images {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .reviews_images img {
+        width: 200px;
+        border-radius: 10px;
+    }
+}
+
+/* reviews end ---------------------------------------------------->*/

@@ -1,0 +1,93 @@
+@media (max-width:1239px) {
+    .c_main_table {
+        width: 100%;
+        overflow-x: auto;
+        margin-left: auto;
+    }
+
+    .c_main_table::-webkit-scrollbar {
+        display: none;
+    }
+
+    .c_main_table {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .submit_btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3%;
+
+        .c_btn {
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: 2px solid #d80000;
+            border-radius: 5px;
+            background: #d80000;
+            font-weight: 600;
+            font-size: 0.7rem;
+            transition: all 200ms ease-in;
+            cursor: pointer;
+
+            &:hover {
+                background: transparent;
+            }
+        }
+    }
+
+    .c_select {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        color: #000;
+        border-radius: 6px;
+        border: none;
+    }
+
+
+    .food_quentity_inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+
+        .display {
+            background: white;
+            color: #000000;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        .btn-1 {
+            border: 1px solid #d80000;
+            border-radius: 0;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+
+
+    .c_th,
+    .c_td {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,130 @@
+* {
+    color: white;
+}
+
+
+/* body help start */
+.help_body_main {
+    background: #131313;
+    padding: 4%;
+}
+
+.help_body_inner {
+    .help_heading h1 {
+        color: white;
+        font-size: 4rem;
+        margin-top: 2%;
+
+    }
+
+    .help_info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .help_info_inner1 .help_info_heading,
+        .help_info_inner2 .help_info_heading {
+            font-size: 1.7rem;
+            font-weight: 600;
+            margin-top: 10%;
+        }
+    }
+
+}
+
+
+.help_bottom_main {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.help_bottom_inner1 {
+    .help_image img {
+        width: 500px;
+    }
+}
+
+.help_findus p,
+.help_findus1 p {
+    font-size: 1.1rem;
+}
+
+.help_findus {
+    margin-top: 5%;
+
+    .find_heading {
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+}
+
+.help_findus1 .find_heading {
+    margin-top: 2%;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.help_bottom_inner2 {
+    .help_from_main .form_top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .form_top1 .from_input_main {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+        .form_label {
+            padding-bottom: 2%;
+            padding-top: 3%;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .form_txtarea {
+            width: 100% !important;
+            color: black;
+            border-radius: 10px;
+            border: none;
+            padding: 3%;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+        .form_txtarea:focus {
+            outline: none;
+        }
+    }
+
+    .form_top .from_input_main {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+        .form_label {
+            padding-bottom: 2%;
+            padding-top: 3%;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .form_input {
+            padding: 5%;
+            padding-left: 3%;
+            padding-right: 3%;
+            color: black;
+            border-radius: 6px;
+            border: none;
+        }
+
+        .form_input:focus {
+            outline: none;
+        }
+    }
+}
+
+/* body help end */

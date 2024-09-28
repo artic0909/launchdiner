@@ -1,0 +1,553 @@
+@media (max-width: 822px) {
+    .profile_orders_inner {
+        .food_details_title {
+            font-size: 1.5rem;
+        }
+
+        .food_details_price {
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .food_details_desc {
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+
+        .location {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .quantity {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        .status {
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+    }
+
+
+    .modal_body_user .profile_edit_image .edit_image_inner .user_modal_profile_label {
+        position: absolute;
+        background: white;
+        padding: 0.8%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 345px !important;
+        top: 310px !important;
+        cursor: pointer;
+
+        .fa-camera {
+            font-size: 1.1rem;
+        }
+    }
+}
+
+@media (max-width: 792px) {
+    .profile_orders_inner {
+        display: grid;
+        grid-template-columns: 1fr !important;
+        align-items: center;
+        margin-bottom: 10%;
+
+        .image_order {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .profile_link_content_inner .content_heading {
+        font-size: 1.3rem !important;
+    }
+
+    .modal_body_user .profile_edit_image .edit_image_inner .user_modal_profile_label {
+        position: absolute;
+        background: white;
+        padding: 0.8%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 320px !important;
+        top: 310px !important;
+        cursor: pointer;
+
+        .fa-camera {
+            font-size: 1.1rem;
+        }
+    }
+
+
+
+    .profile_inner {
+        .cover_banner .cover_banner_inner {
+            background: url('../images/profile_banner3.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 15rem;
+            display: flex;
+            align-items: center;
+
+            .user_details {
+                text-align: left;
+                margin: auto;
+                width: 100%;
+                margin-left: 2.3%;
+
+                .profile_name_user {
+                    font-size: 1.2rem;
+                }
+
+                .users_links {
+                    display: flex;
+                    gap: 20px;
+                }
+
+                .users_links span {
+                    font-weight: 500;
+                    transition: all 200ms ease-in;
+                    border-bottom: 2px solid #ffffff;
+                    cursor: pointer;
+                    font-size: 12px;
+
+                    &:hover {
+                        border-bottom: 2px solid #d80000;
+
+                        .users_links_each i {
+                            color: #d80000;
+                        }
+                    }
+                }
+
+                .users_links span a {
+                    text-decoration: none;
+                }
+
+                .users_links span a i {
+                    &:hover {
+                        color: #d80000;
+                    }
+                }
+            }
+
+            .profile_name_user {
+                text-shadow: 0 2px 17px black;
+            }
+        }
+
+        .profile_image {
+            padding: 0.7%;
+            background: #ffffff;
+            border-radius: 50%;
+            margin-left: 3%;
+            box-shadow: 0 2px 17px black;
+        }
+
+        .profile_image img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            border-radius: 50%;
+        }
+    }
+
+
+
+    .profile_orders_inner {
+        .food_details_title {
+            font-size: 1.2rem;
+        }
+
+        .food_details_price {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+
+        .food_details_desc {
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+
+        .location {
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+
+        .quantity {
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+
+        .status {
+            font-size: 0.7rem;
+            font-weight: 500;
+        }
+    }
+}
+
+
+
+@media (max-width: 580px) {
+    .modal_body_user .profile_edit_image .edit_image_inner .user_modal_profile_label {
+        position: absolute;
+        background: white;
+        padding: 0.8%;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        right: 240px !important;
+        top: 270px !important;
+        cursor: pointer;
+
+        .fa-camera {
+            font-size: 1.1rem;
+        }
+    }
+
+    .close {
+        font-size: 1.2rem !important;
+    }
+
+
+
+    .content_modal {
+
+        .modal_body_user .form_input {
+            border: none;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            color: black;
+            margin-top: 2%;
+            margin-bottom: 4%;
+            border-radius: 6px;
+        }
+
+        .modal_body_user .form_label {
+            font-size: 0.6rem;
+            font-weight: 500;
+        }
+
+        .modal_body_user .desc_prof {
+            margin-top: -3%;
+            margin-bottom: 4%;
+            font-size: 10px;
+            color: #d80000;
+            font-weight: 500;
+        }
+
+        .modal_body_user .profile_edit_image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal_body_user .profile_edit_image .edit_image_inner {
+            padding: 1.5%;
+            background: #ffffff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal_body_user .profile_edit_image .edit_image_inner img {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .modal_body_user .profile_edit_image .edit_image_inner .user_modal_profile_label {
+            position: absolute;
+            background: white;
+            padding: 0.8%;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            right: 250px !important;
+            top: 230px !important;
+            cursor: pointer;
+
+            .fa-camera {
+                font-size: 0.8rem;
+            }
+        }
+    }
+
+
+
+
+    .profile_inner {
+        .cover_banner .cover_banner_inner {
+            background: url('../images/profile_banner3.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 15rem;
+            display: flex;
+            align-items: center;
+
+            .user_details {
+                text-align: left;
+                margin: auto;
+                width: 100%;
+                margin-left: 2.3%;
+
+                .profile_name_user {
+                    font-size: 1rem;
+                }
+
+                .users_links {
+                    display: flex;
+                    gap: 20px;
+                }
+
+                .users_links span {
+                    font-weight: 500;
+                    transition: all 200ms ease-in;
+                    border-bottom: 2px solid #ffffff;
+                    cursor: pointer;
+                    font-size: 10px;
+
+                    &:hover {
+                        border-bottom: 2px solid #d80000;
+
+                        .users_links_each i {
+                            color: #d80000;
+                        }
+                    }
+                }
+
+                .users_links span a {
+                    text-decoration: none;
+                }
+
+                .users_links span a i {
+                    &:hover {
+                        color: #d80000;
+                    }
+                }
+            }
+
+            .profile_name_user {
+                text-shadow: 0 2px 17px black;
+            }
+        }
+
+        .profile_image {
+            padding: 0.7%;
+            background: #ffffff;
+            border-radius: 50%;
+            margin-left: 3%;
+            box-shadow: 0 2px 17px black;
+        }
+
+        .profile_image img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 70px !important;
+            border-radius: 50%;
+        }
+    }
+
+
+    .profile_body_inner {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 10px !important;
+    }
+
+    .sidebar_inner .sidebar_links {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+
+        .sidebar_link_each {
+            text-decoration: none;
+            padding: 3%;
+            margin-top: 10px;
+            margin-left: 10px;
+            font-size: 0.8rem;
+            transition: all 200ms ease-in;
+            border-left: 2px solid #131313;
+
+            &:hover {
+                background: #d80000;
+                border-left: 2px solid #ffffff;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 484px) {
+    .modal_body_user .profile_edit_image .edit_image_inner .user_modal_profile_label {
+        display: none !important;
+    }
+
+    .show_div {
+        display: block !important;
+        text-align: center;
+
+        .show {
+            border-bottom: 2px solid #d80000;
+            font-size: 12px;
+        }
+    }
+}
+
+
+@media (max-width: 448px) {
+    .profile_body_inner {
+        display: grid;
+        grid-template-columns: 1fr !important;
+    }
+
+    .sidebar_links {
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-evenly;
+        align-items: center;
+
+
+        .sidebar_link_each {
+            padding: 0 !important;
+            margin: 0 !important;
+            padding: 1% !important;
+            border-right: 2px solid white;
+        }
+    }
+
+
+
+
+
+    .cover_banner .cover_banner_inner {
+        background: url('../images/profile_banner3.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 10rem !important;
+        display: flex;
+        flex-direction: column !important;
+        align-items: center;
+
+        .user_details {
+            text-align: left;
+            margin: auto;
+            width: 100%;
+            margin-left: 2.3%;
+
+            .users_links {
+                display: flex;
+                gap: 20px;
+            }
+
+            .users_links span {
+                font-weight: 500;
+                transition: all 200ms ease-in;
+                border-bottom: 2px solid #ffffff;
+                cursor: pointer;
+                
+                .users_links_each{
+                    text-shadow: 0 2px 7px black;
+                }
+
+                &:hover {
+                    border-bottom: 2px solid #d80000;
+
+                    .users_links_each i {
+                        color: #d80000;
+                    }
+                }
+            }
+
+            .users_links span a {
+                text-decoration: none;
+            }
+
+            .users_links span a i {
+                &:hover {
+                    color: #d80000;
+                }
+            }
+        }
+
+        .profile_name_user {
+            text-shadow: 0 2px 17px black;
+        }
+    }
+
+
+    .profile_image {
+        padding: 0.7%;
+        background: #ffffff;
+        border-radius: 50%;
+        margin-left: 0 !important;
+        box-shadow: 0 2px 17px black;
+        position: relative;
+        top: 20px;
+        left: -110px;
+    }
+
+    .profile_orders_inner{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: start !important;
+        justify-content: left !important;
+    }
+
+    .user_details{
+        width: fit-content !important;
+
+        .profile_name_user{
+            text-align: center;
+        }
+    }
+
+    .image_order img {
+        width: 170px !important;
+    }
+
+
+    .edit_image_inner img{
+        width: 50px !important;
+    }
+}
+
+
+@media (max-width: 378px) {
+    .profile_image {
+        padding: 0.7%;
+        background: #ffffff;
+        border-radius: 50%;
+        margin-left: 0 !important;
+        box-shadow: 0 2px 17px black;
+        position: relative;
+        top: 20px;
+        left: -90px;
+    }
+
+    .sidebar_link_each {
+        font-size: 10px !important;
+        padding: 0.6% !important;
+    }
+
+    .edit_image_inner img{
+        width: 50px !important;
+    }
+}
